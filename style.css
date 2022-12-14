@@ -4,6 +4,9 @@ html, body, p, ol, ul, li, pre, hr, h1, h2 {
     font-family: 'Montserrat', sans-serif;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 h1, h2 {
     font-size: 100%;
     font-weight: normal;
@@ -14,9 +17,6 @@ ul {
 html {
     box-sizing: border-box;
 }
-*, *::before, *::after {
-    box-sizing: inherit;
-}
 img {
     height: auto;
     max-width: 100%;
@@ -25,22 +25,49 @@ img {
     box-sizing: border-box;
 }
 body {
-    border: 2px solid rebeccapurple;
     background-color: #1c1a15;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 350px;
-    border: 2px solid rebeccapurple;
+.container{
+    padding:0 305px;
 }
-.photo {
-    border-radius: 3px;
-    width: 20%;
-    height: 20%;
+.navList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #bba594;
+    padding: 20px;
+    color: black;
 }
-nav{
-    font-weight: 700;
-}
-.navLink{
+.navList a{
     text-decoration: none;
+    color: black;
+    padding: 20px;
+    transition: 1s;
+}
+.navList a:hover{
+    background-color: #9c8779
+}
+.navList a:active{
+    color: azure;
+}
+.left{
+    float: left;
+    height: 100%;
+}
+.photo{
+    width: 30%;
+    height: 100%;
+}
+.name{
+    color: #fff;
+}
+.right{
+    float: right;
+
+}
+.contact{
+    color: #fff;
 }
