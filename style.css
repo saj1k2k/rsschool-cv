@@ -6,6 +6,8 @@ html, body, p, ol, ul, li, pre, hr, h1, h2 {
 }
 html {
     scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
 }
 h1, h2 {
     font-size: 100%;
@@ -31,6 +33,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .container{
     padding:0 305px;
 }
@@ -103,7 +106,7 @@ body {
 }
 .aboutMe p {
     padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .langs h1{
     background-color: rgb(89, 83, 83);
@@ -112,20 +115,30 @@ body {
 }
 .langs ul{
     padding: 20px;
+    font-size: 20px;
 }
+
+.codeWrapper{
+    margin: 20px;
+    background-color: #bba594;
+    padding: 25px;
+}
+
 .code h1{
     background-color: rgb(89, 83, 83);
     font-size: 27px;
     font-weight: 700;
 }
 .code p{
-    padding: 20px;
-    font-size: 18px;
+    padding: 25px 45px; 
+    font-size: 20px;
+    color: black;
 }
 .keyStrengths h1{
     background-color: rgb(89, 83, 83);
     font-size: 27px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 #tabsStrengths{
@@ -166,19 +179,25 @@ body {
     height: auto;
     width: auto;
     background-color: #bba594;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #666;
 }
 .githubLink{
     text-decoration: none;
     font-size: 32px;
-    color: rgb(95, 80, 80);
+    color: #fff;
     position: absolute;
-    top: 1330px;
     margin-left: 10px;
+    margin-top: 24px;
 }
 .gitLogo{
-    height: 80px;
+    height: 90px;
 }
 .rssLogo{
-    height: 80px;
+    height: 90px;
     float: right;
 }
