@@ -1,0 +1,203 @@
+html, body, p, ol, ul, li, pre, hr, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+}
+h1, h2 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul {
+    list-style: none;
+}
+html {
+    box-sizing: border-box;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: #1c1a15;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    padding:0 305px;
+}
+.navList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #bba594;
+    padding: 20px;
+    color: black;
+}
+.navList a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    transition: 1s;
+}
+.navList a:hover{
+    background-color: #9c8779
+}
+.navList a:active{
+    color: azure;
+}
+#skillsList{
+    line-height: 1.8;
+}
+.left{
+    height: 100vh;
+    width: 310px;
+
+}
+.leftTitle{
+    background-color: #2d2a25;
+}
+.photo{
+    width: 311px;
+}
+.name{
+    color: #fff;
+}
+.right{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    position: absolute;
+    left: 362px;
+    top: 88px;
+}
+.titleName{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.titleName h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.titleName p{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+.aboutMe h1{
+    background-color: rgb(89, 83, 83);
+    font-size: 27px;
+    font-weight: 700;
+}
+.aboutMe p {
+    padding: 20px;
+    font-size: 20px;
+}
+.langs h1{
+    background-color: rgb(89, 83, 83);
+    font-size: 27px;
+    font-weight: 700;
+}
+.langs ul{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.codeWrapper{
+    margin: 20px;
+    background-color: #bba594;
+    padding: 25px;
+}
+
+.code h1{
+    background-color: rgb(89, 83, 83);
+    font-size: 27px;
+    font-weight: 700;
+}
+.code p{
+    padding: 25px 45px; 
+    font-size: 20px;
+    color: black;
+}
+.keyStrengths h1{
+    background-color: rgb(89, 83, 83);
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#tabsStrengths{
+    list-style-type: square;
+    margin-left: 35px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.leftTitle{
+    color: #fff;
+    padding: 10px 50px;
+}
+.sectionTitle{
+    color: wheat
+}
+.leftTitle h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+#contact{
+    line-height: 1.8;
+}
+.leftTitle li{
+    font-size: 20px;
+}
+.skillsItem{
+    margin-top: 2   0px;
+}
+.skillsItem img{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.footer{
+    height: auto;
+    width: auto;
+    background-color: #bba594;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #666;
+}
+.githubLink{
+    text-decoration: none;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+.gitLogo{
+    height: 90px;
+}
+.rssLogo{
+    height: 90px;
+    float: right;
+}
